@@ -1,0 +1,40 @@
+body {
+
+    background-color: rgb(240, 240, 240);
+    /* background-image: url(back.jpg); */
+   
+ 
+
+}
+
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+align-content: center;
+
+}
+
+.image {
+    
+    width: 370px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+@media (max-width: 770pz) {
+    .container {
+        margin:  0 10%;
+        
+    }
+    .image {
+        width: 100%;
+    }
+}
+
+
+
